@@ -16,7 +16,7 @@ library(paletteer)
 library(maps)
 
 #> read in data
-ds <- read_csv("https://raw.githubusercontent.com/mingjys/trends-in-lake-ice/refs/heads/main/corrs20.csv")
+ds <- read_csv("https://raw.githubusercontent.com/mingjys/trends-in-lake-ice/refs/heads/main/data/corrs20.csv")
 
 ds <- ds %>%
   rename(lakename = lakename20,
