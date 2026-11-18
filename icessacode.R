@@ -30,10 +30,10 @@ file_path <- this.path::here()
 setwd(file_path)
 
 #> read data
-ice = read.csv("https://raw.githubusercontent.com/mingjys/trends-in-lake-ice/refs/heads/main/liag_ice.csv", header=TRUE)
-download.file(url="https://github.com/mingjys/trends-in-lake-ice/raw/refs/heads/main/uat4_tb_v04r00_avrg_chtlt_s197812_e202312_c20240104.nc", destfile="uat4_tb_v04r00_avrg_chtlt_s197812_e202312_c20240104.nc", mode="wb")
+ice = read.csv("https://raw.githubusercontent.com/mingjys/trends-in-lake-ice/refs/heads/main/data/liag_ice.csv", header=TRUE)
+download.file(url="https://github.com/mingjys/trends-in-lake-ice/raw/refs/heads/main/data/uat4_tb_v04r00_avrg_chtlt_s197812_e202312_c20240104.nc", destfile="uat4_tb_v04r00_avrg_chtlt_s197812_e202312_c20240104.nc", mode="wb")
 nc_data = nc_open("uat4_tb_v04r00_avrg_chtlt_s197812_e202312_c20240104.nc")
-phys_char <- read.csv("https://raw.githubusercontent.com/mingjys/trends-in-lake-ice/refs/heads/main/liag_info.csv", header=TRUE)
+phys_char <- read.csv("https://raw.githubusercontent.com/mingjys/trends-in-lake-ice/refs/heads/main/data/liag_info.csv", header=TRUE)
 
 long = ncvar_get(nc_data, "longitude")
 lat = ncvar_get(nc_data, "latitude")
