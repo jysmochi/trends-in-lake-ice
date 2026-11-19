@@ -8,7 +8,7 @@ Lake ice phenology is a sensitive indicator of climate change, however, trends i
 
 This repository contains the R scripts and relevant data files downloaded from the [NSIDC](https://doi.org/10.7265/N5W66HP8) and [NOAA](https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C01578/html) for recreating all the results from this project. The contents are as follows:
 
-- `data\`
+- `data/`
   - `liag_ice.csv`: data from the NSIDC of ice cover durations of lakes and rivers in the Northern Hemisphere.
   - `liag_info.csv`: data from the NSIDC of physical characteristics of those lakes and rivers.
   - `uat4_tb_v04r00_avrg_chtlt_s197812_e202312_c20240104.nc`: global data from the NOAA of monthly average 2.5 degree gridded brightness temperatures of the Lower Troposphere.
@@ -16,6 +16,8 @@ This repository contains the R scripts and relevant data files downloaded from t
 - `Rscripts/`
   - `icessacode.R`: general R script containing code for SSA and generation of `corrs20.csv`. 
   - `spatial_interpolation.R`: R script for inverse-distance weighting. 
+- `LICENSE`: the standard MIT license, and 
+- `README.md`: read at your own peril.
 
 ## Download
 
