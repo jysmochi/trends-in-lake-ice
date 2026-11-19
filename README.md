@@ -6,7 +6,7 @@ Lake ice phenology is a sensitive indicator of climate change, however, trends i
 
 ## Contents
 
-This repository contains the R scripts and relevant data files downloaded from the [NSIDC]{https://doi.org/10.7265/N5W66HP8} and [NOAA]{https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C01578/html} for recreating all the results from this project. The contents are as follows:
+This repository contains the R scripts and relevant data files downloaded from the [NSIDC](https://doi.org/10.7265/N5W66HP8) and [NOAA](https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C01578/html) for recreating all the results from this project. The contents are as follows:
 
 - `data\`
   - `liag_ice.csv`: data from the NSIDC of ice cover durations of lakes and rivers in the Northern Hemisphere.
